@@ -10,11 +10,7 @@ class Hzl < Formula
   depends_on "node"
 
   def install
-    # Call npm install to install the dependencies including the devDependencies that might be needed for postinstall
-    # We use std_npm_install_args to pointing to the libexec directory
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
-    
-    # Symlink the binary from libexec/bin to the Cellar's bin
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
