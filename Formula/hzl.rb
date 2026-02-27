@@ -3,8 +3,8 @@ require "language/node"
 class Hzl < Formula
   desc "External task ledger for coding agents and OpenClaw"
   homepage "https://github.com/tmchow/hzl"
-  url "https://registry.npmjs.org/hzl-cli/-/hzl-cli-1.34.0.tgz"
-  sha256 "019a00647fee5418c2cc2dd8ef0f63515cc8eff733cb4fc4ce8492d992307e74"
+  url "https://registry.npmjs.org/hzl-cli/-/hzl-cli-1.34.1.tgz"
+  sha256 "44529955dbe99374988de088db46f1f71cb86db9725f96a396a4bf12f0e70dcf"
   license "MIT"
 
   depends_on "node"
